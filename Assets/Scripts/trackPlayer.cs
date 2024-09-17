@@ -10,6 +10,8 @@ public class trackPlayer : MonoBehaviour
 	public Sprite[] gunPos;
 	public SpriteRenderer bodyRenderer;
     private float radian, evenmoremath;
+
+	public bool isBot;
     void Start()
     {
         playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -43,16 +45,39 @@ public class trackPlayer : MonoBehaviour
 	}
 
 	public float rotation(float[] player, float[] enemy, float radian){
-		if(player[0] > enemy[0] && player[1] > enemy[1]){
-			evenmoremath = ((float)radian*Mathf.Rad2Deg) - 90;
+
+		if(isBot){
+			if(player[0] > enemy[0] && player[1] > enemy[1]){
+				evenmoremath = ((float)radian*Mathf.Rad2Deg) - 90;
+			}else{
+				evenmoremath =  ((float)radian*Mathf.Rad2Deg) + 90;
+			}
 		}else{
-			evenmoremath =  ((float)radian*Mathf.Rad2Deg) + 90;
+			if(player[0] < enemy[0] && player[1] < enemy[1]){
+				evenmoremath = -1*(((float)radian*Mathf.Rad2Deg) - 90);
+			}else{
+				evenmoremath =  -1*(((float)radian*Mathf.Rad2Deg) + 90);
+			}
 		}
 		return evenmoremath;
 	}
 
-	public void targetting(float Rotation){
-		
+	public void targetting(float rotation)
+	{
+		int index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
+		/*
+		Debug.Log(rotation+ " "+
+					rotation / -5+ " " +
+					Mathf.FloorToInt(rotation / -5)+ " " +
+					Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1));
+		*/
+		Debug.Log(index);
+		bodyRenderer.sprite = gunPos[index];
+	}
+
+}
+
+
 		/*
 		// Create a quaternion to rotate the enemy towards the target angle
 		Quaternion target = Quaternion.Euler(0, 0, Rotation);
@@ -67,39 +92,3 @@ public class trackPlayer : MonoBehaviour
 			ROt = Rotation - 360f;
 		}
 		*/
-		if(Rotation>25){
-			bodyRenderer.sprite = gunPos[0];
-
-		}else if(Rotation<=25 && Rotation>20){
-			bodyRenderer.sprite = gunPos[2];
-
-		}else if(Rotation<=20 && Rotation>15){
-
-			bodyRenderer.sprite = gunPos[4];
-		}else if(Rotation<=15 && Rotation>10){
-			bodyRenderer.sprite = gunPos[6];
-
-		}else if(Rotation<=10 && Rotation>5){
-			bodyRenderer.sprite = gunPos[8];
-
-		}else if(Rotation<=5 && Rotation>0){
-			bodyRenderer.sprite = gunPos[10];
-
-		}else if(Rotation<=0 && Rotation>-5){
-			bodyRenderer.sprite = gunPos[12];
-
-		}else if(Rotation<=-10 && Rotation>-15){
-			bodyRenderer.sprite = gunPos[14];
-
-		}else if(Rotation<=-15 && Rotation>-20){
-			bodyRenderer.sprite = gunPos[16];
-
-		}else if(Rotation<=-20 && Rotation>-25){
-			bodyRenderer.sprite = gunPos[18];
-
-		}else if(Rotation<=-25){
-			bodyRenderer.sprite = gunPos[20];
-		}
-	}
-
-}

@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 82b1c542959d6c449bb0de6401733156
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd8c75c994977a4ba4c7066568b54e6
+      internalID: 94674149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c2c57308da3754a87ba35a0a303e1c
+      internalID: -1907696408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0556d352ecfb349468759305273fbb77
+      internalID: 902650290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de9d554373f66c4fa5d928dc28fc367
+      internalID: 1881252738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7a60866f438944abcd47fa06eef39
+      internalID: 1201514894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663da36a515b9d24887107f26c51ce8b
+      internalID: -144003379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3028ad4f4049a4e9555e79dfd562e3
+      internalID: -38733810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e6ad5959878246baf41dfa3773d18
+      internalID: 78045843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49de80ce1e6f16a439341b88a2e9ad63
+      internalID: -36084064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07f5ff55e39ac344b10f40d0ee17ea5
+      internalID: 204332990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_10
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65fa66432296946a59a83e065e01be
+      internalID: -1164243710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b650645221b03cb4ba5969c57d88c97f
+      internalID: -770956387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_12
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc4095fc1d6ead4599cf0119119ca34
+      internalID: -1606945796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_13
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0dca83fbc4c7242ac14d6f56feed55
+      internalID: -642662287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_14
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0178d13ede2f0ab4881ae1bc97b31678
+      internalID: -1883478236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_15
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc294bcbe891654384338640dbd822c
+      internalID: 44055189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_16
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd9df428357a04fab07605fcf58e48
+      internalID: 1574631422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_17
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb06a6ddb2e588345a7669d8d19807ba
+      internalID: 1213795940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_18
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8391938ee3059c40b87d28065482d7c
+      internalID: -1440160284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_19
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2864a43c6d70ca24c9687da4a0513d42
+      internalID: 1278877514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_20
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0b5cce217c0d9418ffa084af59ea60
+      internalID: 1025042472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_21
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb36a53e7f649e498046d9426f7d8b2
+      internalID: -972941480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22dd0b92cd29af43a4b3aec3bf172b5
+      internalID: -1910914894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_23
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f2e5d7077b0ad42ac4368c4c633d04
+      internalID: 923328035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_24
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106b2a8d447ee724bb1c9df8c51784aa
+      internalID: -404202774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_25
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4558511b739732498da46b30f2e811d
+      internalID: -2112115572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_26
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d772f27f0b726f44b52a443301e4273
+      internalID: -1961224004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_27
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c72053798dabd0448396a1c64bbee57
+      internalID: -485377989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_28
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e2660acb3c0964689b3297de834a85
+      internalID: -576444167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_29
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d16d96280ea3544bb56c275e863d0c
+      internalID: 1007148818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_30
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f231ea5fdd8ee3a4da2a79f3a5f74957
+      internalID: -718187563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_31
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c51f2f6c11284790fea2765ed7a2e
+      internalID: -1177728534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_32
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef78ae171f53d8a43aa3731b1f5a0e54
+      internalID: -1440506983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_33
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbb6722cf10eaf4680ee2435bf939ba
+      internalID: -1633435883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_34
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d0b116aa513ce4893ed9015a6f6d26
+      internalID: -1561676141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_35
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fb382b244370e44a158db20e1ff1a3
+      internalID: -272558428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_36
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa1f88f8fd03541a9334de4bf7dcfe
+      internalID: -784603718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_37
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374197a4e2453634cb3a44e2e7227c2d
+      internalID: -1314265413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_38
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930b3ebb4c6d01944963af567ea1c101
+      internalID: -1892739198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_39
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e252446d44c70f542b65147321149b4e
+      internalID: -231883670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_40
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb13884bdf3b94449f77e040bed4906
+      internalID: 243694021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_41
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3e4b214e0a1494fbe3af9dfa13d590
+      internalID: -147331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_42
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec580f28a0e34b41ba87f445f8b9ca3
+      internalID: -844739323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_43
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6630e5555045b43908755a92c17b2c
+      internalID: 1826011654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_44
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8e7e26d7bc0ec49bd5a959b406792d
+      internalID: -1784464697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_45
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb705c7190fa464fa3cc37e9cc24e2b
+      internalID: 210722934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_46
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba882c9742fbd844dbe39153639e880a
+      internalID: -2116972484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_47
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32e71028713f1340b9372baf3f9ccbc
+      internalID: 1778050822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_48
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b92d3a1c1e85e429b6546d6b5ddc4e
+      internalID: -98736044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_49
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0917d22456fa54ab9d16d6fbe37cc8
+      internalID: 55976316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_50
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1703bd9ddf5c2446bd162114fd8b819
+      internalID: -1425890764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_51
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce3e29f6b64694fb86cf9962487fa3
+      internalID: 2026396834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_52
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150c4d9df82fb746901a74213a74304
+      internalID: 715708359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_53
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b38713a0b941bd448ea45cf1c618bf3
+      internalID: -833385187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_54
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8788e0146edfce45b23fd4142486b1d
+      internalID: 1498681480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_55
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1cd11c4f6b25d498a2399562ce0aa7
+      internalID: -2144711375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_56
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97522ee9fd84ab4b9294c1f117ec07b
+      internalID: -1278573600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_57
+      rect:
+        serializedVersion: 2
+        x: 3306
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27416282462cf1e49acd9e46079ff285
+      internalID: -88942973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_58
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adcece739129d747a76b29e4bb8e3c2
+      internalID: -1101372487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_59
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c346f78800aa92b4f90bab8b74510977
+      internalID: -1946843936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_60
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b7c1a028b460a40b4ae161c55a5a8f
+      internalID: -191375307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_61
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c8a4026f1ecd443a2c67f2b2ed59c9
+      internalID: 1308831459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_62
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870b804989bd7ff4fbb90cfe915ea74a
+      internalID: -2136933206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_turret_90_spaced_63
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 52
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb14ec38c6b96b4a9469760d91b086b
+      internalID: 1127232903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rocket_tank_turret_90_spaced_0: 94674149
+      rocket_tank_turret_90_spaced_1: -1907696408
+      rocket_tank_turret_90_spaced_10: -1164243710
+      rocket_tank_turret_90_spaced_11: -770956387
+      rocket_tank_turret_90_spaced_12: -1606945796
+      rocket_tank_turret_90_spaced_13: -642662287
+      rocket_tank_turret_90_spaced_14: -1883478236
+      rocket_tank_turret_90_spaced_15: 44055189
+      rocket_tank_turret_90_spaced_16: 1574631422
+      rocket_tank_turret_90_spaced_17: 1213795940
+      rocket_tank_turret_90_spaced_18: -1440160284
+      rocket_tank_turret_90_spaced_19: 1278877514
+      rocket_tank_turret_90_spaced_2: 902650290
+      rocket_tank_turret_90_spaced_20: 1025042472
+      rocket_tank_turret_90_spaced_21: -972941480
+      rocket_tank_turret_90_spaced_22: -1910914894
+      rocket_tank_turret_90_spaced_23: 923328035
+      rocket_tank_turret_90_spaced_24: -404202774
+      rocket_tank_turret_90_spaced_25: -2112115572
+      rocket_tank_turret_90_spaced_26: -1961224004
+      rocket_tank_turret_90_spaced_27: -485377989
+      rocket_tank_turret_90_spaced_28: -576444167
+      rocket_tank_turret_90_spaced_29: 1007148818
+      rocket_tank_turret_90_spaced_3: 1881252738
+      rocket_tank_turret_90_spaced_30: -718187563
+      rocket_tank_turret_90_spaced_31: -1177728534
+      rocket_tank_turret_90_spaced_32: -1440506983
+      rocket_tank_turret_90_spaced_33: -1633435883
+      rocket_tank_turret_90_spaced_34: -1561676141
+      rocket_tank_turret_90_spaced_35: -272558428
+      rocket_tank_turret_90_spaced_36: -784603718
+      rocket_tank_turret_90_spaced_37: -1314265413
+      rocket_tank_turret_90_spaced_38: -1892739198
+      rocket_tank_turret_90_spaced_39: -231883670
+      rocket_tank_turret_90_spaced_4: 1201514894
+      rocket_tank_turret_90_spaced_40: 243694021
+      rocket_tank_turret_90_spaced_41: -147331
+      rocket_tank_turret_90_spaced_42: -844739323
+      rocket_tank_turret_90_spaced_43: 1826011654
+      rocket_tank_turret_90_spaced_44: -1784464697
+      rocket_tank_turret_90_spaced_45: 210722934
+      rocket_tank_turret_90_spaced_46: -2116972484
+      rocket_tank_turret_90_spaced_47: 1778050822
+      rocket_tank_turret_90_spaced_48: -98736044
+      rocket_tank_turret_90_spaced_49: 55976316
+      rocket_tank_turret_90_spaced_5: -144003379
+      rocket_tank_turret_90_spaced_50: -1425890764
+      rocket_tank_turret_90_spaced_51: 2026396834
+      rocket_tank_turret_90_spaced_52: 715708359
+      rocket_tank_turret_90_spaced_53: -833385187
+      rocket_tank_turret_90_spaced_54: 1498681480
+      rocket_tank_turret_90_spaced_55: -2144711375
+      rocket_tank_turret_90_spaced_56: -1278573600
+      rocket_tank_turret_90_spaced_57: -88942973
+      rocket_tank_turret_90_spaced_58: -1101372487
+      rocket_tank_turret_90_spaced_59: -1946843936
+      rocket_tank_turret_90_spaced_6: -38733810
+      rocket_tank_turret_90_spaced_60: -191375307
+      rocket_tank_turret_90_spaced_61: 1308831459
+      rocket_tank_turret_90_spaced_62: -2136933206
+      rocket_tank_turret_90_spaced_63: 1127232903
+      rocket_tank_turret_90_spaced_7: 78045843
+      rocket_tank_turret_90_spaced_8: -36084064
+      rocket_tank_turret_90_spaced_9: 204332990
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

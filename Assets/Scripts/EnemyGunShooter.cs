@@ -1,13 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.PlasticSCM.Editor.WebApi;
+using System;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
 public class EnemyGunShooter : MonoBehaviour
 {
     private int lastindx, currindex;
     
+    public Rigidbody2D projectilePrefab;
+
+    public float firerate = 0.3f;
+    private float currentFireTimer = 0;
+    public float shootForce = 1f;
+    public float bulletDeathTimer = 1f;
+    public GameObject Enemy;
     public trackPlayer index;
 
     // Start is called before the first frame update
@@ -19,7 +23,7 @@ public class EnemyGunShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float adjustLoc = (index.isBot) ? 0.15f: 0.075f;
+        float adjustLoc = index.isBot ? 0.15f: 0.075f;
 
         lastindx = currindex;
         currindex = index.index;
@@ -31,5 +35,27 @@ public class EnemyGunShooter : MonoBehaviour
         }else if(lastindx==currindex){
             Debug.Log("I will do nothing");
         }
+
+
+        currentFireTimer+=.01f;
+        Debug.Log(currentFireTimer + " " + firerate);
+        // every .3 seconds will allow the a bullet to be spawned
+        if (currentFireTimer >= firerate) {
+            // Calls function to fire bullet
+            FireOneBullet();
+            // Resets timer to 0 to restart cycle
+            currentFireTimer = 0;
+        }
+    }
+
+
+    private void FireOneBullet() {
+        // Spawns bullet
+        Rigidbody2D rg = Instantiate<Rigidbody2D>(projectilePrefab, transform.position,
+                                                     index.target);
+        // Applies force to bullet to proell it in a direction 
+        rg.AddRelativeForce(10*shootForce * Vector2.up);
+        // Removes Bulllet afeter Given amount of time
+        Destroy(rg.gameObject, bulletDeathTimer+10);
     }
 }

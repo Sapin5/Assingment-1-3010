@@ -9,7 +9,8 @@ public class trackPlayer : MonoBehaviour
     private GameObject playerObj = null;
 	public Sprite[] gunPos;
 	public SpriteRenderer bodyRenderer;
-    private float radian, evenmoremath;
+    public float radian, evenmoremath;
+	public Quaternion target;
 	public int index;
 	public bool isBot;
     void Start()
@@ -59,11 +60,13 @@ public class trackPlayer : MonoBehaviour
 				evenmoremath =  -1*(((float)radian*Mathf.Rad2Deg) + 90);
 			}
 		}
+
 		return evenmoremath;
 	}
 
 	public void targetting(float rotation)
 	{
+		target = Quaternion.Euler(0, 0, rotation);
 		index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
 		/*
 		Debug.Log(rotation+ " "+

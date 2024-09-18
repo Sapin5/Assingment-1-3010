@@ -115,8 +115,8 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 9180655314818340582}
   - {fileID: 5663364885449593825}
+  - {fileID: 9180655314818340582}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2811778770323582431
@@ -254,4 +254,5 @@ MonoBehaviour:
   - {fileID: -1981776661, guid: f8705d0b3c2ac94409c6721928ba992e, type: 3}
   - {fileID: 509409275, guid: f8705d0b3c2ac94409c6721928ba992e, type: 3}
   bodyRenderer: {fileID: 5035937265977557891}
+  index: 0
   isBot: 0

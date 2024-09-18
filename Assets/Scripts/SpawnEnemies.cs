@@ -13,7 +13,6 @@ public class SpawnEnemies : MonoBehaviour
         counter += 1;
         if(counter >= interval){
             counter = 0;
-            
             Instantiate(enemyPrefab[Enemy()],new Vector3(9, transform.position.y, 0), transform.rotation);
         }
         

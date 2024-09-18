@@ -10,7 +10,7 @@ public class trackPlayer : MonoBehaviour
 	public Sprite[] gunPos;
 	public SpriteRenderer bodyRenderer;
     private float radian, evenmoremath;
-
+	public static int index;
 	public bool isBot;
     void Start()
     {
@@ -64,14 +64,13 @@ public class trackPlayer : MonoBehaviour
 
 	public void targetting(float rotation)
 	{
-		int index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
+		index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
 		/*
 		Debug.Log(rotation+ " "+
 					rotation / -5+ " " +
 					Mathf.FloorToInt(rotation / -5)+ " " +
 					Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1));
 		*/
-		Debug.Log(index);
 		bodyRenderer.sprite = gunPos[index];
 	}
 

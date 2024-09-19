@@ -27,18 +27,18 @@ public class EnemyGunShooter : MonoBehaviour
 
         lastindx = currindex;
         currindex = index.index;
-        Debug.Log(lastindx+"<- Last   Current ->"+currindex);
+        
         if(lastindx>currindex){
             transform.position = transform.position - new Vector3(adjustLoc, 0f, 0f);
         }else if(lastindx<currindex){
             transform.position = transform.position + new Vector3(adjustLoc, 0f, 0f);
         }else if(lastindx==currindex){
-            Debug.Log("I will do nothing");
+    
         }
 
 
         currentFireTimer+=.01f;
-        Debug.Log(currentFireTimer + " " + firerate);
+
         // every .3 seconds will allow the a bullet to be spawned
         if (currentFireTimer >= firerate) {
             // Calls function to fire bullet

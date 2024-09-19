@@ -66,7 +66,11 @@ public class trackPlayer : MonoBehaviour
 
 	public void targetting(float rotation)
 	{
-		target = Quaternion.Euler(0, 0, rotation);
+		if(isBot){
+			target = Quaternion.Euler(0, 0, rotation);
+		}else{
+			target = Quaternion.Euler(0, 0, -1*rotation-180);
+		}
 		index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
 		/*
 		Debug.Log(rotation+ " "+

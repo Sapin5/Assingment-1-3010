@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f1db13bf021ab4cbe5db4a42f3c752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 0.3
   shootForce: 1
   bulletDeathTimer: 1
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f1db13bf021ab4cbe5db4a42f3c752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 0.3
   shootForce: 1
   bulletDeathTimer: 1
@@ -656,7 +656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1394601866473454934, guid: 62046b6e6751e5c47a2028680705c34c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7374604914627405016, guid: 62046b6e6751e5c47a2028680705c34c, type: 3}
       propertyPath: m_Name
@@ -904,6 +904,10 @@ PrefabInstance:
     - target: {fileID: 3325331542905433107, guid: c9f53344fb6b3cf44a50bde4987aef97, type: 3}
       propertyPath: m_Name
       value: EnemyUnder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3325331542905433107, guid: c9f53344fb6b3cf44a50bde4987aef97, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5043534086219318958, guid: c9f53344fb6b3cf44a50bde4987aef97, type: 3}
       propertyPath: m_LocalPosition.x

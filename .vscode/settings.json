@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "3010-sidescroller.sln"
+    "dotnet.defaultSolution": "Assignment-1-3010.sln"
 }

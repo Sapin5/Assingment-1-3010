@@ -7,21 +7,19 @@ public class SpawnEnemies : MonoBehaviour
     public GameObject[] enemyPrefab;
     public float interval = 100;
     private float counter = 0;
-    private float[] spawnLocations = {1f, -2f, -5f};
     // Start is called before the first frame update
     void Update()
     {
         counter += 1;
         if(counter >= interval){
             counter = 0;
-            SpawnLocation();
-            //Instantiate(enemyPrefab[0],new Vector3(9, (int)spawnLocations[1], 0), transform.rotation);
+            Instantiate(enemyPrefab[Enemy()],new Vector3(9, transform.position.y, 0), transform.rotation);
         }
         
     }
 
-    private float SpawnLocation(){
-        float ok = Random.Range(0, 3);
+    private int Enemy(){
+        int ok = Random.Range(0, enemyPrefab.Length);
         //Debug.Log(ok);
         return ok;
     }

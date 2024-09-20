@@ -4,10 +4,8 @@ public class MovementPlayer : MonoBehaviour
 {   
 
     public float fallSpeed;
-    // Update is called once per frame
     public Rigidbody2D physicsBody;
-
-    private bool touchingGround;
+    public bool touchingGround;
 
     private void Start()
     {

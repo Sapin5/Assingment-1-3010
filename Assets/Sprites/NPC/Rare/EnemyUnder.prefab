@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
-  firerate: 1
-  shootForce: 1
+  firerate: 30
+  shootForce: 15
   bulletDeathTimer: 1
   Enemy: {fileID: 3095518033330476851}
   index: {fileID: 3651091749537192159}

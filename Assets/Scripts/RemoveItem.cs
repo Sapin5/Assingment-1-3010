@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class RemoveItem : MonoBehaviour
 {
+    public bool noStop;
     public void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.name== "wall" || collision.gameObject.CompareTag("Player")){
+        if(collision.gameObject.name== "wall" ){
             Destroy(gameObject);
         }
     }
+
 }
+

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8805212867589659835}
   m_Layer: 8
   m_Name: Projectile_0 1
-  m_TagString: Bullet
+  m_TagString: PlayerBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,3 +184,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionGo: {fileID: 7023593207666554324, guid: 21e3fcb25041f7f4aaa389f2f7de3382, type: 3}
+  playersBullet: 1

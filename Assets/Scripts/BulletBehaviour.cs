@@ -14,33 +14,33 @@ public class BulletBehaviour : MonoBehaviour
         // Creates explosion game object
 
         if(playersBullet){
-            if(collision.gameObject.CompareTag("Enemy")){
-                Instantiate(explosionGo, transform.position, transform.rotation);
-                // Removes this Gameobject from the game
-                Destroy(gameObject);
-            }
+            Instantiate(explosionGo, transform.position, transform.rotation);
+            // Removes this Gameobject from the game
+            Destroy(gameObject);
         }else{
-            if(collision.gameObject.CompareTag("Player")){
-                Instantiate(explosionGo, transform.position, transform.rotation);
-                // Removes this Gameobject from the game
-                Destroy(gameObject);
-            }
+            if(collision.gameObject.CompareTag("Player") || 
+                collision.gameObject.CompareTag("PlayerBullet") ||
+                collision.gameObject.CompareTag("BoundryWall")){
+                    Instantiate(explosionGo, transform.position, transform.rotation);
+                    // Removes this Gameobject from the game
+                    Destroy(gameObject);
+                }
         }
     }
 
     public void OnCollisionEnter2D(Collision2D collision){
         if(playersBullet){
-            if(collision.gameObject.CompareTag("Enemy")){
-                Instantiate(explosionGo, transform.position, transform.rotation);
-                // Removes this Gameobject from the game
-                Destroy(gameObject);
-            }
+            Instantiate(explosionGo, transform.position, transform.rotation);
+            // Removes this Gameobject from the game
+            Destroy(gameObject);
         }else{
-            if(collision.gameObject.CompareTag("Player")){
-                Instantiate(explosionGo, transform.position, transform.rotation);
-                // Removes this Gameobject from the game
-                Destroy(gameObject);
-            }
+            if(collision.gameObject.CompareTag("Player") || 
+                collision.gameObject.CompareTag("PlayerBullet") ||
+                collision.gameObject.CompareTag("BoundryWall")){
+                    Instantiate(explosionGo, transform.position, transform.rotation);
+                    // Removes this Gameobject from the game
+                    Destroy(gameObject);
+                }
         }
     }
 }

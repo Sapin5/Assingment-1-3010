@@ -15,8 +15,10 @@ public class MovementPlayer : MonoBehaviour
     void Update()
     {
         if(PlayerHP.singleton.Currenthp() >= 1){
-            transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * 10, 0, 0 );
-            if(Input.GetKeyDown(KeyCode.UpArrow) && touchingGround)
+            transform.Translate(Input.GetAxis("Horizontal") *
+                                     Time.deltaTime * 10, 0, 0 );
+            if((Input.GetKeyDown(KeyCode.UpArrow) || 
+                    Input.GetKeyDown(KeyCode.W)) && touchingGround)
             {
                 physicsBody.AddForce(Vector2.up * fallSpeed, ForceMode2D.Impulse);
                 touchingGround = false;

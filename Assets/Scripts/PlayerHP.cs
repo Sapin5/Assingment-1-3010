@@ -20,10 +20,6 @@ public class PlayerHP : MonoBehaviour
         singleton = this;
     }
 
-    public void Update(){
-        Debug.Log(hp);
-    }
-
     // On collsion with Enemy loses HP
     private void OnCollisionEnter2D(Collision2D collision){
         // Checks if object collided with was an enemy
@@ -49,7 +45,10 @@ public class PlayerHP : MonoBehaviour
         if(hp == 0){
             // Creates new explosion object
             Instantiate(explosionGo, transform.position, transform.rotation);
+            GetComponent<Collider2D>().enabled = false;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
         }
+        
     }
 
     public int Currenthp(){

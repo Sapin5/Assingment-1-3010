@@ -8,7 +8,6 @@ public class ArtController : MonoBehaviour
     private int test;
     private int test2 =0;
     public int delay;
-    public MovementPlayer touchingGround;
 
     // Update is called once per frame
     void Update()

@@ -42,13 +42,12 @@ public class PlayerHP : MonoBehaviour
     }
 
     public void boom(int hp){
-        if(hp == 0){
+        if(hp == 0 && MovementPlayer.touchingGround){
             // Creates new explosion object
-            Instantiate(explosionGo, transform.position, transform.rotation);
             GetComponent<Collider2D>().enabled = false;
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+            Instantiate(explosionGo, transform.position, transform.rotation);
         }
-        
     }
 
     public int Currenthp(){

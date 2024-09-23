@@ -21,8 +21,7 @@ public class SpawnEnemies : MonoBehaviour
             Instantiate(enemyPrefab[Enemy()], 
                     new Vector3(transform.position.x, transform.position.y, 0),
                             transform.rotation);
-            spawntime = false;
-            Debug.Log("Enemy spawned");   
+            spawntime = false;  
         }
 
         if(spawntime == false){
@@ -31,12 +30,11 @@ public class SpawnEnemies : MonoBehaviour
                 spawntime = true;
                 counter = 0;
             }
-            Debug.Log(counter);
         }
     }
 
     private int Enemy(){
-        int ok = Mathf.Clamp(Random.Range(0, enemyPrefab.Length), 0, enemyPrefab.Length-1);
+        int ok = Random.Range(0, enemyPrefab.Length);
         return ok;
     }
 }

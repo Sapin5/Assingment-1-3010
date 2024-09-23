@@ -24,8 +24,8 @@ public class trackPlayer : MonoBehaviour
         float[] player = {playerObj.transform.position.x,
 						  playerObj.transform.position.y};
 
-		float[] enemy = {this.transform.position.x,
-                         this.transform.position.y};
+		float[] enemy = {transform.position.x,
+                         transform.position.y};
 
         float[] temp = angle();
 		evenmoremath = rotation(player, enemy, temp[2]);
@@ -34,9 +34,9 @@ public class trackPlayer : MonoBehaviour
 
 	public float[] angle(){
 		float xvalue = playerObj.transform.position.x - 
-						this.transform.position.x;
+						transform.position.x;
 		float yvalue = playerObj.transform.position.y - 
-						this.transform.position.y;
+						transform.position.y;
 
 		radian = MathF.Atan(yvalue/xvalue);
 
@@ -56,6 +56,8 @@ public class trackPlayer : MonoBehaviour
 		}else{
 			if(player[0] < enemy[0] && player[1] < enemy[1]){
 				evenmoremath = -1*(((float)radian*Mathf.Rad2Deg) - 90);
+			}else if(player[0] < enemy[0] && player[1] > enemy[1]){
+				evenmoremath = ((float)radian*Mathf.Rad2Deg) + 90;
 			}else{
 				evenmoremath =  -1*(((float)radian*Mathf.Rad2Deg) + 90);
 			}

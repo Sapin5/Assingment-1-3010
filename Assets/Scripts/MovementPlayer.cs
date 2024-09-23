@@ -14,11 +14,13 @@ public class MovementPlayer : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * 10, 0, 0 );
-        if(Input.GetKeyDown(KeyCode.UpArrow) && touchingGround)
-        {
-            physicsBody.AddForce(Vector2.up * fallSpeed, ForceMode2D.Impulse);
-            touchingGround = false;
+        if(PlayerHP.singleton.Currenthp() >= 1){
+            transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * 10, 0, 0 );
+            if(Input.GetKeyDown(KeyCode.UpArrow) && touchingGround)
+            {
+                physicsBody.AddForce(Vector2.up * fallSpeed, ForceMode2D.Impulse);
+                touchingGround = false;
+            }
         }
     }
 

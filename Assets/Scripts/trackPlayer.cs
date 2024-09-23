@@ -22,21 +22,19 @@ public class trackPlayer : MonoBehaviour
     void Update()
     {
         float[] player = {playerObj.transform.position.x,
-						  playerObj.transform.position.y};
+					playerObj.transform.position.y};
 
 		float[] enemy = {transform.position.x,
                          transform.position.y};
 
-        float[] temp = angle();
+        float[] temp = angle(player, enemy);
 		evenmoremath = rotation(player, enemy, temp[2]);
 		targetting(evenmoremath);
     }
 
-	public float[] angle(){
-		float xvalue = playerObj.transform.position.x - 
-						transform.position.x;
-		float yvalue = playerObj.transform.position.y - 
-						transform.position.y;
+	public float[] angle(float[] player, float[] enemy){
+		float xvalue = player[0] - enemy[0];
+		float yvalue = player[1] - enemy[1];
 
 		radian = MathF.Atan(yvalue/xvalue);
 
@@ -68,11 +66,8 @@ public class trackPlayer : MonoBehaviour
 
 	public void targetting(float rotation)
 	{
-		if(isBot){
-			target = Quaternion.Euler(0, 0, rotation);
-		}else{
-			target = Quaternion.Euler(0, 0, -1*rotation-180);
-		}
+		target = (isBot) ? Quaternion.Euler(0, 0, rotation):
+							Quaternion.Euler(0, 0, -1*rotation-180); 
 		index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
 		/*
 		Debug.Log(rotation+ " "+

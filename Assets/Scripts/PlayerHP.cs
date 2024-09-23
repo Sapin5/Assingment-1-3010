@@ -46,12 +46,13 @@ public class PlayerHP : MonoBehaviour
     }
 
     public void boom(int hp){
-        if(hp <= 0){
+        if(hp == 0){
             // Creates new explosion object
             Instantiate(explosionGo, transform.position, transform.rotation);
-
-            //Removes this game object
-            Destroy(gameObject);
         }
+    }
+
+    public int Currenthp(){
+        return hp;
     }
 }

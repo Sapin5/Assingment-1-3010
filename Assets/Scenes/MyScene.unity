@@ -9139,7 +9139,7 @@ MonoBehaviour:
   - {fileID: 4590947971395330358, guid: 32cee5d8df893864295f3a3e786139cd, type: 3}
   - {fileID: 7587328760454364783, guid: 79b67a47f8f2c5f4cba2ebcb9231e4d2, type: 3}
   - {fileID: 7587328760454364783, guid: 79b67a47f8f2c5f4cba2ebcb9231e4d2, type: 3}
-  intervalMax: 100
+  intervalMax: 200
   intervalMin: 0
   timer: 10
 --- !u!1 &688101364
@@ -18712,7 +18712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 2cc18801a4fa74c4eac6998e0ae510b6, type: 3}
-  firerate: 0.3
+  firerate: 0.2
   shootForce: 50
   bulletDeathTimer: 1
   player: {fileID: 1764656760}
@@ -23956,6 +23956,7 @@ GameObject:
   - component: {fileID: 1764656763}
   - component: {fileID: 1764656762}
   - component: {fileID: 1764656761}
+  - component: {fileID: 1764656766}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -24067,6 +24068,19 @@ Transform:
   - {fileID: 1339764781}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1764656766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764656760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f8853c84689e94cb5e2225b97e07b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionGo: {fileID: 6988197661816766150, guid: da36c2fe4b57e5f4580656e05e6e6ebe, type: 3}
 --- !u!1 &1764757408
 GameObject:
   m_ObjectHideFlags: 0

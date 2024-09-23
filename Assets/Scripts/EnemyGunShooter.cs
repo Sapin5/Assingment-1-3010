@@ -4,9 +4,7 @@ using UnityEngine;
 public class EnemyGunShooter : MonoBehaviour
 {
     private int lastindx, currindex;
-    
     public Rigidbody2D projectilePrefab;
-
     public float firerate = 0.3f;
     private float currentFireTimer = 0;
     public float shootForce = 1f;
@@ -32,10 +30,7 @@ public class EnemyGunShooter : MonoBehaviour
             transform.position = transform.position - new Vector3(adjustLoc, 0f, 0f);
         }else if(lastindx<currindex){
             transform.position = transform.position + new Vector3(adjustLoc, 0f, 0f);
-        }else if(lastindx==currindex){
-    
-        }
-
+        }else if(lastindx==currindex){}
 
         currentFireTimer+=.01f;
 

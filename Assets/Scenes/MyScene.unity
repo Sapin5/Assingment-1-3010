@@ -1352,7 +1352,7 @@ MonoBehaviour:
   - {fileID: 7587328760454364783, guid: 79b67a47f8f2c5f4cba2ebcb9231e4d2, type: 3}
   intervalMax: 1000
   intervalMin: 0
-  timer: 1500
+  timer: 2000
 --- !u!1 &739623000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3451,7 +3451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab:
   - {fileID: 3325331542905433107, guid: c9f53344fb6b3cf44a50bde4987aef97, type: 3}
-  intervalMax: 1000
+  intervalMax: 2000
   intervalMin: 0
   timer: 2000
 --- !u!1 &1701265609
@@ -4685,7 +4685,7 @@ MonoBehaviour:
   - {fileID: 1394601866473454934, guid: 62046b6e6751e5c47a2028680705c34c, type: 3}
   intervalMax: 1000
   intervalMin: 0
-  timer: 1500
+  timer: 2000
 --- !u!1 &1980419872
 GameObject:
   m_ObjectHideFlags: 0

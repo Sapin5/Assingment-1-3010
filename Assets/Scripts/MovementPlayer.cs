@@ -21,6 +21,13 @@ public class MovementPlayer : MonoBehaviour
                 touchingGround = false;
             }
         }
+
+        /*
+        if(transform.position.y < -2.3106){
+            transform.position = transform.position + new Vector3(0f, 0.1f, 0f);
+            //-2.32106
+        }
+        */
     }
 
     private void OnCollisionEnter2D(Collision2D collision){

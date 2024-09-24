@@ -6,14 +6,15 @@ public class EnemyHealthManager : MonoBehaviour
 {
     public GameObject hpbar;
     private int hp;
+    private float totalhp;
     void Awake(){
         hp = GetComponent<RemoveEnemies>().hp;
+        totalhp = hp;
     }
 
     public void TakeEnemyDmg(int damage){
-        Debug.Log("imhit");
         hp-=damage;
-        Debug.Log(hp/10f);
-        hpbar.transform.localScale = new Vector2(hp/10f, 1);
+        Debug.Log(hp/totalhp);
+        hpbar.transform.localScale = new Vector2(hp/totalhp, 1);
     }
 }

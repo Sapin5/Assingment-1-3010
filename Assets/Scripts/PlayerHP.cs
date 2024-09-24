@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerHP : MonoBehaviour
@@ -10,14 +6,17 @@ public class PlayerHP : MonoBehaviour
     public GameObject explosionGo;
     
     //Player HP
-    private static int hp = 10;
+    private int hp = 10;
 
     // Allows other Scripts to access HP
     public static PlayerHP singleton;
 
+    private HealthManager healthManager;
+
     //Sets singleton to this game object
     void Awake(){
         singleton = this;
+        healthManager = gameObject.GetComponent<HealthManager>();
     }
 
     // On collsion with Enemy loses HP
@@ -27,30 +26,42 @@ public class PlayerHP : MonoBehaviour
             collision.gameObject.CompareTag("Bullet")){
             // Reduces HP
             hp-=1;
+            healthManager.TakeDamage(1);
         }  
-        boom(hp);
+        boom();
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
         // Checks if object collided with was an enemy
         if(collision.gameObject.CompareTag("Enemy")|| 
             collision.gameObject.CompareTag("Bullet")){
+            healthManager.TakeDamage(1);
             // Reduces HP
             hp-=1;
         }
-        boom(hp);
+        boom();
     }
 
-    public void boom(int hp){
+    public void boom(){
         if(hp == 0 && MovementPlayer.touchingGround){
             // Creates new explosion object
             GetComponent<Collider2D>().enabled = false;
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
             Instantiate(explosionGo, transform.position, transform.rotation);
+        }else{
+            GetComponent<Collider2D>().enabled = true;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
         }
     }
 
     public int Currenthp(){
         return hp;
+    }
+
+    public void updateHP(int health){
+        hp = health;
+        healthManager.TakeDamage(-10);
+        boom();
     }
 }

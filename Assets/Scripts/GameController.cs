@@ -6,15 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject startScreen = null;
-    public GameObject gameOver = null;
-    public GameObject hpBar = null;
-    public GameObject Spawners = null;
-    public GameObject player = null;
-    public GameObject timer = null;
+    public GameObject startScreen, gameOver, hpBar, 
+                      Spawners, player, timer,
+                      exit;
     public GameObject[] enemies;
-
-
     private bool playerActive = false;
     void Awake(){
         Time.timeScale = 0;
@@ -29,6 +24,7 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 1;
         startScreen.SetActive(false);
+        exit.SetActive(false);
         hpBar.SetActive(true);
         Spawners.SetActive(true);
         player.SetActive(true);
@@ -39,8 +35,13 @@ public class GameController : MonoBehaviour
 
     public void Restart(){
         PlayerHP.singleton.updateHP(10);
+        Timer.curtime=0;
         gameOver.SetActive(false);
         SceneManager.LoadScene("Myscene");
+    }
+
+    public void ExitGame(){
+        Application.Quit();
     }
 
     // Update is called once per frame
@@ -49,6 +50,7 @@ public class GameController : MonoBehaviour
         if(playerActive){    
             if(PlayerHP.singleton.Currenthp() <= 0){
                 gameOver.SetActive(true);
+                timer.SetActive(true);
             }
         }
     } 

@@ -21,10 +21,6 @@ public class PlayerShooter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         if (!projectilePrefab) {
-            Debug.LogWarning("Please give the " + gameObject.name + 
-                                " PlayerShooter script a projectile reference");
-        }
         currentFireTimer = firerate;
     }
 

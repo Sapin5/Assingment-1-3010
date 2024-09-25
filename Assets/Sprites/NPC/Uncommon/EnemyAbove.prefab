@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f52f6d8ab2440d498ad3785c6e01a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 5
 --- !u!114 &598997377358043895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 5
-  shootForce: 15
+  shootForce: 20
   bulletDeathTimer: 2
   Enemy: {fileID: 7374604914627405016}
   index: {fileID: 3963956190748137095}
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 5
-  shootForce: 15
+  shootForce: 20
   bulletDeathTimer: 2
   Enemy: {fileID: 7374604914627405016}
   index: {fileID: 3963956190748137095}

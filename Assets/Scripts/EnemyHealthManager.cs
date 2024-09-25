@@ -14,7 +14,6 @@ public class EnemyHealthManager : MonoBehaviour
 
     public void TakeEnemyDmg(int damage){
         hp-=damage;
-        Debug.Log(hp/totalhp);
         hpbar.transform.localScale = new Vector2(hp/totalhp, 1);
     }
 }

@@ -69,30 +69,8 @@ public class trackPlayer : MonoBehaviour
 		target = (isBot) ? Quaternion.Euler(0, 0, rotation):
 							Quaternion.Euler(0, 0, -1*rotation-180); 
 		index = Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1);
-		/*
-		Debug.Log(rotation+ " "+
-					rotation / -5+ " " +
-					Mathf.FloorToInt(rotation / -5)+ " " +
-					Mathf.Clamp(Mathf.FloorToInt(rotation / -5) + 5, 0, gunPos.Length - 1));
-		*/
 
 		bodyRenderer.sprite = gunPos[index];
 	}
 
 }
-
-
-		/*
-		// Create a quaternion to rotate the enemy towards the target angle
-		Quaternion target = Quaternion.Euler(0, 0, Rotation);
-		// Smoothly rotate the enemy towards the target using Slerp
-		transform.rotation = Quaternion.Slerp(transform.rotation, 
-											  target, Time.deltaTime*5);
-		
-		float ROt;
-		if(Rotation <= 180f){
-			ROt = Rotation;
-		}else{
-			ROt = Rotation - 360f;
-		}
-		*/

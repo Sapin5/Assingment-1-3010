@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 5
-  shootForce: 40
+  shootForce: 30
   bulletDeathTimer: 1
   Enemy: {fileID: 3095518033330476851}
   index: {fileID: 3651091749537192159}
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 5
-  shootForce: 40
+  shootForce: 30
   bulletDeathTimer: 1
   Enemy: {fileID: 3095518033330476851}
   index: {fileID: 3651091749537192159}
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 5
-  shootForce: 40
+  shootForce: 30
   bulletDeathTimer: 1
   Enemy: {fileID: 3095518033330476851}
   index: {fileID: 3651091749537192159}
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
   firerate: 5
-  shootForce: 40
+  shootForce: 30
   bulletDeathTimer: 1
   Enemy: {fileID: 3095518033330476851}
   index: {fileID: 3651091749537192159}

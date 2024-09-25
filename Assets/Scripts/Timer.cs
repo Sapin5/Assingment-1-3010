@@ -13,8 +13,11 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        curtime+=Time.deltaTime;
-        timer.GetComponent<TextMeshPro>().text = curtime.ToString("#.#");
+        if(PlayerHP.singleton.Currenthp() >= 1){
+            curtime+=Time.deltaTime;
+            timer.GetComponent<TextMeshPro>().text = "Time: " + curtime.ToString("#.#");
+        }else{
+            timer.GetComponent<TextMeshPro>().text = "Time: " +curtime.ToString("#.#");
+        }
     }
 }

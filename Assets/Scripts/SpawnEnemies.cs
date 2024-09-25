@@ -5,31 +5,25 @@ using UnityEngine;
 public class SpawnEnemies : MonoBehaviour
 {
     public GameObject[] enemyPrefab;
-    public int intervalMax, intervalMin;
-    public int timer = 100;
+    public float timer, minTime;
     private float counter = 0;
+    private float timerinc = 0;
     private bool spawntime = true;
     // Start is called before the first frame update
     void Update()
-    {
-
-        int Rand1 = Random.Range(intervalMin, intervalMax);
-        int Rand2 = Random.Range(intervalMin, intervalMax);
-
-        if(Rand1 == Rand2 && spawntime == true)
-        {
-            Instantiate(enemyPrefab[Enemy()], 
-                    new Vector3(transform.position.x, transform.position.y, 0),
-                            transform.rotation);
-            spawntime = false;  
+    { 
+        counter += Time.deltaTime;
+        timerinc += Time.deltaTime;
+        if (counter >= timer){
+            spawntime = true;
+                Instantiate(enemyPrefab[Enemy()], new Vector3(transform.position.x,
+                                    transform.position.y, 0), transform.rotation);
+            counter = 0;
         }
 
-        if(spawntime == false){
-            counter += 1;
-            if (counter >= timer){
-                spawntime = true;
-                counter = 0;
-            }
+        if((int)timerinc%10 == 0 && timer>minTime){
+            timer-=0.5f;
+            timerinc=0;
         }
     }
 

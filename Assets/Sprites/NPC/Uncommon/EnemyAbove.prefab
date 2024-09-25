@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 7158158034585465203}
   m_Layer: 7
   m_Name: EnemyAbove
-  m_TagString: Enemy
+  m_TagString: EnemyAbove
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
-  firerate: 15
+  firerate: 5
   shootForce: 15
   bulletDeathTimer: 2
   Enemy: {fileID: 7374604914627405016}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1193873989047920176, guid: 182ef0580e6da90418e22751cc51ce94, type: 3}
-  firerate: 15
+  firerate: 5
   shootForce: 15
   bulletDeathTimer: 2
   Enemy: {fileID: 7374604914627405016}

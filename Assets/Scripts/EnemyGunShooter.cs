@@ -32,7 +32,7 @@ public class EnemyGunShooter : MonoBehaviour
             transform.position = transform.position + new Vector3(adjustLoc, 0f, 0f);
         }else if(lastindx==currindex){}
 
-        currentFireTimer+=.01f;
+        currentFireTimer+=Time.deltaTime;
 
         // every .3 seconds will allow the a bullet to be spawned
         if (currentFireTimer >= firerate) {

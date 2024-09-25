@@ -8,6 +8,7 @@ TagManager:
   - BoundryWall
   - Enemy
   - PlayerBullet
+  - EnemyAbove
   layers:
   - Default
   - TransparentFX

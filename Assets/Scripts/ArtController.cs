@@ -12,10 +12,10 @@ public class ArtController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        test2+=1;
+        test2+=1+(int)Time.deltaTime;
         if(PlayerHP.singleton.Currenthp() <= 0){
             if(test2%delay == 0){
-                test+=1;
+                test+=1+(int)Time.deltaTime;
             }
             if(test > dead.Length-1){
                 test = 0;
@@ -26,7 +26,7 @@ public class ArtController : MonoBehaviour
             if(Input.GetAxis("Horizontal") != 0)
             {
                 if(test2%delay/2 == 0){
-                    test+=1;
+                    test+=1+(int)Time.deltaTime;
                 }
                 if(test > move.Length-1){
                     test = 0;
@@ -35,7 +35,7 @@ public class ArtController : MonoBehaviour
                 bodyRenderer.sprite = move[test];
             }else{
                 if(test2%delay == 0){
-                    test+=1;
+                    test+=1+(int)Time.deltaTime;
                 }
                 if(test > idle.Length-1){
                         test = 0;
